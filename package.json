@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Amayw/MoonUI/issues"
   },
-  "homepage": "https://github.com/Amayw/MoonUI#readme"
+  "homepage": "https://github.com/Amayw/MoonUI#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
