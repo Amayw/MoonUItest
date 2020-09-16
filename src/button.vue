@@ -1,6 +1,6 @@
 <template>
   <button class="m-button" :class='{[`icon-${iconPosition}`]:true}'>
-    <m-icon v-if="icon" :name="icon"></m-icon>
+    <m-icon v-if="icon" :name="icon" class="m-icon"></m-icon>
     <div class="content">
       <slot></slot>
     </div>
@@ -48,13 +48,13 @@ export default{
     >.content{
       order: 2;
     }
-    >.icon{
+    >.m-icon{
       order:1;
       margin-right: .3em;
     }
 
     &.icon-right{
-      >.icon{
+      >.m-icon{
         order: 2;
         margin-right: 0;
         margin-left: .3em;
