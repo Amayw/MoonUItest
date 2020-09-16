@@ -1,5 +1,5 @@
 <template>
-  <button class="moon-button" :class='{[`icon-${iconPosition}`]:true}'>
+  <button class="m-button" :class='{[`icon-${iconPosition}`]:true}'>
     <m-icon v-if="icon" :name="icon"></m-icon>
     <div class="content">
       <slot></slot>
@@ -25,7 +25,7 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-  .moon-button{
+  .m-button{
     height:var(--button-height);
     font-size: var(--font-size);
     padding: 0 1em;
