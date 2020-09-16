@@ -18,6 +18,8 @@ new Vue({
 //单元测试
 import chai from 'chai'
 const expect=chai.expect
+import spies from 'chai-spies'
+chai.use(spies)
 //测试icon属性
 {
   const Constructor=Vue.extend(Button);
@@ -91,11 +93,12 @@ const expect=chai.expect
     }
   })
   vm.$mount()
-  vm.$on('click',()=>{
-    console.log(1);
+  let spy=chai.spy(()=>{
+    console.log(1)
   })
+  vm.$on('click',spy)
   vm.$el.click()
-  // expect(useElement.getAttribute('xlink:href')).to.eq('#i-right')
+  expect(spy).to.have.been.called()
   vm.$el.remove();
   vm.$destroy();
 }
