@@ -5,35 +5,50 @@
   <title>Moon</title>
 </head>
 <style>
-  *{
+  /*全局样式*/
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  :root{
-    --button-height:32px;
-    --font-size:14px;
-    --button-bg:white;
-    --button-active-bg:#eee;
-    --border-radius:4px;
-    --color:#333;
-    --border-color:#999;
-    --border-color-hover:#666;
+
+  :root {
+    --button-height: 32px;
+    --font-size: 14px;
+    --button-bg: white;
+    --button-active-bg: #eee;
+    --border-radius: 4px;
+    --color: #333;
+    --border-color: #999;
+    --border-color-hover: #666;
   }
 
-  #app{
+  #app {
     margin: 20px;
   }
 
-  body{
+  body {
     font-size: var(--font-size);
+  }
+
+</style>
+<style>
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
   }
 </style>
 
 <body>
 <div id="app">
-  <moon-button></moon-button>
+  <moon-button>下载</moon-button>
+  <moon-button icon="thumbs-up" icon-position="left">下载</moon-button>
+  <moon-button icon="thumbs-up" icon-position="right">下载</moon-button>
 </div>
 <script src="./src/app.js"></script>
+<script src="//at.alicdn.com/t/font_2072028_olcnzbio0e9.js"></script>
 </body>
 </html>

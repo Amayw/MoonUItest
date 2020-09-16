@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Button from './button'
+import Button from './button.vue'
 
 Vue.component('moon-button',Button);
 new Vue({
