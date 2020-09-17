@@ -29,24 +29,24 @@
     ```
     IE15及以上浏览器都支持此样式
 2. 安装
-```
-npm install --save moonwangerui
-or
-yarn add moonwangerui
-```
+    ```
+    npm install --save moonwangerui
+    or
+    yarn add moonwangerui
+    ```
 3. 引用moonwangerui
-```
-import {
-    Button,ButtonGroup,Icon
-} from "moonwangerui";
-import "moonwangerui/dist/index.css";
-export default {
-    name: "App",
-    components: {
-        "m-button": Button,
-    },
-};
-```
+    ```
+    import {
+        Button,ButtonGroup,Icon
+    } from "moonwangerui";
+    import "moonwangerui/dist/index.css";
+    export default {
+        name: "App",
+        components: {
+            "m-button": Button,
+        },
+    };
+    ```
 
 ## 文档
 
