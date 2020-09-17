@@ -15,19 +15,22 @@ new Vue({
   }
 })
 
-//单元测试
+
 import chai from 'chai'
 const expect=chai.expect
 import spies from 'chai-spies'
 chai.use(spies)
-//测试icon属性
+
+//单元测试
 {
+  //测试icon属性,测试按钮含有icon
   const Constructor=Vue.extend(Button);
   const vm=new Constructor({
     propsData:{
       icon:"right",
     }
   })
+  //vm挂载到内存
   vm.$mount()
   let useElement=vm.$el.querySelector('use');
   console.log(useElement);
