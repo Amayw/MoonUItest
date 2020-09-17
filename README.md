@@ -3,7 +3,7 @@
 
 作者：moonwanger
 ## 介绍
-
+这是我做的一个UI框架，简单易上手，希望你能喜欢！
 [![Build Status](https://travis-ci.org/Amayw/MoonUI.svg?branch=master)](https://travis-ci.org/Amayw/MoonUI)
 ## 开始使用
 1. 安装
