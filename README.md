@@ -4,6 +4,7 @@
 作者：moonwanger
 ## 介绍
 
+[![Build Status](https://travis-ci.org/Amayw/MoonUI.svg?branch=master)](https://travis-ci.org/Amayw/MoonUI)
 ## 开始使用
 1. 安装
 使用本框架前，请在在CSS中开启border-box
