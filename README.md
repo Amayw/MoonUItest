@@ -1,9 +1,10 @@
 
-# MoonUI --一个vue组件
+# MoonUI 一个vue组件
 
 作者：moonwanger
 ## 介绍
-这是我做的一个UI框架，简单易上手，希望你能喜欢！
+这是我学习vue时做的一个UI框架，简单易上手，希望你能喜欢！<br>
+
 [![Build Status](https://travis-ci.org/Amayw/MoonUI.svg?branch=master)](https://travis-ci.org/Amayw/MoonUI)
 ## 开始使用
 1. 添加CSS样式<br>
@@ -46,10 +47,7 @@ export default {
     },
 };
 ```
-4. 引入svg symbols
-```
-<script src="//at.alicdn.com/t/font_2072028_1hp2e2q8sml.js"></script>
-```
+
 ## 文档
 
 ## 提问
