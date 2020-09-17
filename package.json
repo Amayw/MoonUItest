@@ -1,11 +1,12 @@
 {
   "name": "moonwangerui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "这是一个UI框架",
   "main": "dist/index.js",
   "scripts": {
     "dev-test": "parcel watch test/* --no-cache && karma start",
-    "test": "parcel bwuild test/* --no-cache --no-minify && karma start --single-run"
+    "test": "parcel bwuild test/* --no-cache && karma start --single-run",
+    "start": "npx parcel index.html --no-cache"
   },
   "repository": {
     "type": "git",
